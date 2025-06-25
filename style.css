@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #d7e1ec, #f5f7fa);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.weatherForm {
+    margin-bottom: 30px;
+    display: flex;
+    gap: 10px;
+}
+
+.cityInput {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    transition: 0.3s ease;
+}
+
+.cityInput:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 10px rgba(0,123,255,0.2);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.card {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 50px;
+    background: linear-gradient(to bottom right, #4facfe, #00f2fe);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    color: #fff;
+    text-align: center;
+    min-width: 350px;
+}
+
+.card h2 {
+    margin: 10px 0 20px 0;
+    font-size: 2rem;
+}
+
+.card p {
+    margin: 8px 0;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.weatherIcon {
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+.errorDisplay {
+    color: red;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    .weatherForm {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .cityInput {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .card {
+        padding: 20px;
+        min-width: unset;
+        width: 100%;
+    }
+
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 1rem;
+    }
+
+    .weatherIcon {
+        width: 80px;
+        height: 80px;
+    }
+}
+
