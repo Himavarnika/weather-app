@@ -12,7 +12,7 @@ A simple weather app that shows real-time weather data for any city using the [O
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
-   git clone https://github.com/Himavarnika/weatherapp.git
+   git clone https://github.com/Himavarnika/weather-app.git
 
 2. Open index.html in your browser (no backend needed).
 
