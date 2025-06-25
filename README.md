@@ -9,10 +9,6 @@ A simple weather app that shows real-time weather data for any city using the [O
 - Responsive and mobile-friendly UI
 - Input validation and error handling
 
-## 🖼️ Preview
-
-![Screenshot](screenshot.png) <!-- Add a screenshot file to your repo -->
-
 ## 🚀 How to Run Locally
 
 1. Clone the repo:
